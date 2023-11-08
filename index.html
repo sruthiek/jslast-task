@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <style>
+        #result {
+            margin-top: 20px;
+        }
+        input{
+            font-size: 18px;
+        }
+        button{
+            font-size: 18px;
+        }
+    </style>
+    <form id="form">
+        <label for="numberinput">Enter a number: </label>
+        <input type="text" id="numberinput" required>
+        <button type="button" onclick="addNumber()">calculate result</button>
+    </form>
+    <div id="result">
+        <h2>Numbers Entered:</h2>
+        <ul id="numberlist"></ul>
+        <h3>Sum: <span id="sum">0</span></h3>
+        <h3>Average: <span id="average">0</span></h3>
+        <h3>Largest Number: <span id="largest">-</span></h3>
+        <h3>Smallest Number: <span id="smallest">-</span></h3>
+    </div>
+
+    
+
+    
+
+
+
+
+    <script src="./task.js"></script>
+</body>
+</html>
